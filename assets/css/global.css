@@ -1,0 +1,67 @@
+body {
+	width:100%;
+	height:100%;
+	font-family:Arial,sans-serif;
+	font-size:0.8em;
+	margin:0;padding:0;
+}
+input[type=text], input[type=password], input[type=email] {
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 67%;
+    min-height: 18px;
+    margin: 3px;
+}
+#top {
+	width:calc( 100% - 10px );
+	height:100px;
+	background-color:#CCC;
+	color:#000;
+	padding-left:10px;
+	-webkit-box-shadow:0px 10px 10px #AAA;
+	-moz-box-shadow:0px 10px 10px #AAA;
+	box-shadow:0px 10px 10px #AAA;
+}
+
+#top img.logo {
+	margin-top:20px;
+	float:left;
+}
+
+#top img.github {
+	height:25%;
+}
+
+#top h1 {
+	margin:0;
+	padding:0;
+	padding-left:15px;
+	padding-top:30px;
+	color:#0d2636;
+	width:50%;
+	float:left;
+
+}
+#top a.github {
+	float:right;
+	margin-right:20px;
+	margin-top:20px;
+
+}
+
+#top a.github img {
+	height:40%;
+}
+#middle {
+	margin-top:10px;
+	width:100%;
+}
+.side {
+
+	float:left;
+	width:40%;
+	padding:5px;
+}
+.shallow {
+	font-size:0.8em;
+}

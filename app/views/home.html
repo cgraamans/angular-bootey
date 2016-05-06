@@ -1,0 +1,43 @@
+<div ng-controller="HomeController">
+
+		<div id="middle">
+			<div class="side">
+
+				<h2>Test Examples</h2>
+				<button id="example" ng-click="example()">Click To Activate Example!</button>
+
+				<h2>Test User Tokens</h2>
+				<form id="keytest">
+					<input type="text" name="name" placeholder="name"><br>
+					<input type="text" name="key" placeholder="token"><br>
+					<button type="submit">Test this token</button>
+				</form>
+
+				<h2>Register Example</h2>
+				<div style="width:100%;">
+					<form id="register">
+						<input type="text" name="name" placeholder='name'><br>
+						<input type="email" name="email" placeholder='email'><br>
+						<input type="password" name="password" placeholder='password'><br>
+						<button type="submit">Register!</button>
+					</form>
+				</div>
+
+				<h2>Login Example</h2>
+				<div style="width:100%;">
+					<form id="login">
+						<input type="text" name="name" placeholder='name'><br>
+						<input type="password" name="password" placeholder='password'><br>
+						<input type="checkbox" value="1" name="rememberme" CHECKED> Remember me<br>
+						<button type="submit">Login!</button>
+					</form>
+				</div>
+
+			</div>
+			<div class="side shallow" id="example-text">
+				{{theData}}
+			</div>
+
+		</div>
+
+</div>

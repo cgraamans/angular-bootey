@@ -1,0 +1,11 @@
+{
+  "name": "footey",
+  "description": "Footey: an AngularJS based Sockey Client",
+  "author": "H.C.Graamans <graamans@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "socket.io": "~1.4.0"
+  }
+}
