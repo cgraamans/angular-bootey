@@ -1,9 +1,6 @@
 define(['app'], function (app) {
 
-	console.log(app);
-
     app.controller('HomeController', ['$scope','socketer', function ($scope, $window) {
-        $scope.title = "Footey";
 
         $scope.example = function() {
 

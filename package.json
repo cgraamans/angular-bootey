@@ -5,7 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "angular": "^1.5.5",
+    "angular-amd": "^0.2.1",
     "angular-route": "^1.5.5",
+    "angular-socket-io": "^0.7.0",
     "socket.io": "~1.4.0"
   }
 }

@@ -1,9 +1,9 @@
-define(['angularAMD','socket','btford-socket','ngRoute',], function (angularAMD,io) {
+define(['angularAMD','socket','opt','btford-socket','ngRoute'], function (angularAMD,io,opt) {
 
-	var app = angular.module('footey', ['btford.socket-io','ngRoute']);
+	var app = angular.module('angularBootey', ['btford.socket-io','ngRoute']);
 
 	app.factory('socketer', function (socketFactory) {
-		var passIoSocket = io.connect('http://sockey.api');
+		var passIoSocket = io.connect(opt.service);
 
 		socketer = socketFactory({
 			ioSocket: passIoSocket,
@@ -14,18 +14,11 @@ define(['angularAMD','socket','btford-socket','ngRoute',], function (angularAMD,
 	});
 
 	app.config(function ($routeProvider) {
-	    $routeProvider
-	    .when(
-	        "/home",
-	        angularAMD.route({
-	            templateUrl: '/app/views/home.html',
-	            controller: 'HomeController',
-	            controllerUrl: '/app/controllers/home'
-	        })
-	    )
-	    .otherwise({
-	    	redirectTo: '/home'
-	    });
+		opt.routes.forEach(function(route){
+		    $routeProvider
+		    .when(route.name,angularAMD.route(route.AMDcall))
+		    .otherwise({redirectTo:opt.defaultRoute});
+		});
 	});
 
 	return angularAMD.bootstrap(app);
