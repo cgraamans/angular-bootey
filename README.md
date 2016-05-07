@@ -42,8 +42,8 @@ To install Angular-Boot you will need to install npm and a webserver (for exampl
 
 To set up your routes and your socket.io connection, you need to edit your options file.
 
-  cd app
-  vim options.js
+    cd app
+    vim options.js
 
 Here you'll be able to set your routes, your default routes and your socket.io standalone server URL.
 
