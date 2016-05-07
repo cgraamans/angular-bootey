@@ -2,15 +2,15 @@
 
 An Asynchronously loaded Bootstrap Client using AngularJS/RequireJS for Socket.io Standalone Servers
 
-## What is Angular Boot?
+## What is Angular Bootey?
 
-Angular-boot is a ready to use bootstrap for AngularJS applications which want to use Socket.io standalone services to provide their data. This bootstrap implementation bootstraps AngularJS via RequireJS to assure that the application loads controllers, factories and directives as and when they are needed.
+Angular-bootey is a ready to use bootstrap for AngularJS applications which want to use Socket.io standalone services to provide their data. This bootstrap implementation bootstraps AngularJS via RequireJS to assure that the application loads controllers, factories and directives as and when they are needed.
 
-In short, Angular-Boot gives you:
+In short, Angular-Bootey gives you:
 - Asynchronously loaded AngularJS modules via RequireJS
 - Ready-to-use Socket.io implementation of the btford-socket-io provider.
 
-#### Note: If you're looking for a quick standalone socket.io mvc framework for Angular-Boot, it functions very nicely with [Sockey, the standalone Socket.io MVC framework](https://github.com/cgraamans/sockey) that I've written.
+#### Note: If you're looking for a quick standalone socket.io mvc framework for Angular-Bootey, it functions very nicely with [Sockey, the standalone Socket.io MVC framework](https://github.com/cgraamans/sockey) that I've written.
 
 Angular-Bootey Uses:
 - [AngularJS 1.x](https://angularjs.org/)
@@ -33,7 +33,7 @@ The requirements for Angular-Bootey are pretty simple...
 
 ## Installation
 
-To install Angular-Boot you will need to install npm and a webserver (for example apache) on your box. Once you have done so, navigate to the place you want to host the files and...
+To install Angular-Bootey you will need to install npm and a webserver (for example apache) on your box. Once you have done so, navigate to the place you want to host the files and...
 
     git clone https://github.com/cgraamans/angular-bootey
     cd angular-bootey
