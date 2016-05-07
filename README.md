@@ -29,6 +29,7 @@ The requirements for Angular-Bootey are pretty simple...
 - A Webserver for your application
 - A Standalone Socket.io server/service
 - The npm package
+- Also... Knowlegde of AngularJS, RequireJS and Socket.io helps :) See the [Sockey Readme](https://github.com/cgraamans/sockey) for more information on Socket.io standalone implementations.
 
 ## Installation
 
@@ -92,3 +93,4 @@ To initiate a socket connection use the __socketer__ object.
 
 };
 
+### Happy Coding!
