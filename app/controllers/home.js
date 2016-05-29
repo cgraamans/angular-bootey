@@ -1,6 +1,6 @@
 define(['app'], function (app) {
 
-    app.controller('HomeController', ['$scope','socketer', function ($scope, $window) {
+    app.controller('HomeController', ['$scope','$window','socketer', function ($scope, $window, socketer) {
 
         $scope.example = function() {
 
